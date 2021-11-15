@@ -199,7 +199,8 @@ const CircularSlider = ({
             type: 'changeValues',
             payload: {
                 width: width,
-                radius: width / 2
+                radius: width / 2,
+                dashFullArray: svgFullPath.current.getTotalLength ? svgFullPath.current.getTotalLength() : 0
             }
         });
         // eslint-disable-next-line

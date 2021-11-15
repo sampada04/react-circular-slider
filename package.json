@@ -1,6 +1,6 @@
 {
   "name": "react-circular-slider-responsive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork from @fseehawer/react-circular-slider with responsive slider radius",
   "main": "index.js",
   "repository": {
