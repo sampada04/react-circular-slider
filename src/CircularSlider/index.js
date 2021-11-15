@@ -193,6 +193,18 @@ const CircularSlider = ({
         // eslint-disable-next-line
     }, [max, min]);
 
+    useEffect(() => {
+        console.log(width)
+        dispatch({
+            type: 'changeValues',
+            payload: {
+                width: width,
+                radius: width / 2
+            }
+        });
+        // eslint-disable-next-line
+    }, [width]);
+
     // Set knob position
     useEffect(() => {
         const dataArrayLength = state.data.length;

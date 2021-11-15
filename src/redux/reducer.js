@@ -5,6 +5,11 @@ const reducer = (state, action) => {
                 ...state,
                 ...action.payload,
             };
+        case 'changeValues':
+            return {
+                ...state,
+                ...action.payload,
+            };
         case 'setKnobPosition':
             return {
                 ...state,
